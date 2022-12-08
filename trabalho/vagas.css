@@ -1,0 +1,47 @@
+/* vagas.html */
+table{
+    background-color: white;
+    border: 10px solid black;
+    width: 75%;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+th{
+    font-size: large;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: rgb(189, 227, 245);
+
+}
+
+
+/* empresas.html */
+
+label{
+    display: inline-block;
+    font-size: 1em;
+    font-weight:bold;
+    width: 100px;
+}
+
+.hint{
+    background-color: #fffce9;
+    border-radius: 3px;
+    border: 2px solid rgb(235, 235, 235);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 0.7em;
+    margin-left: 10px;
+    padding: 2px;
+    display: none;
+}
+
+input:focus + .hint{
+    display: inline-block;
+}
