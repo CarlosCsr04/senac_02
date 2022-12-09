@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X_UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vagas.css">
+    <title>Empresas</title>
+</head>
+
+<body>
+    <form action="envia.php" method="post">
+        <p>
+            <label for="text">Cargo:</label>
+            <input type="text" id="text" placeholder="Cargo" autofocus />
+            <span class="hint">Digite o cargo</span>
+        </p>
+        <p>
+            <label for="local">Local:</label>
+            <input type="local" id="local" placeholder="Local" />
+            <span class="hint">Local da vaga</span>
+        </p>
+        <p>
+            <label for="content">Descrição:</label>
+            <textarea rows="7" cols="21" name="content" placeholder="Descrição"></textarea>
+        </p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button><br /><br /><br />
+</body>
+
+</html>
